@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "python shirt.py"
+  },
+  "cron": {
+    "jobs": [
+      {
+        "name": "Run my script every 10 minutes",
+        "schedule": "*/10 * * * *",
+        "command": "python shirt.py"
+      }
+    ]
+  }
+}
