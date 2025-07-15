@@ -3,8 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-PRODUCT_SHIRT_URL = "https://usstore.coldplay.com/products/toronto-music-of-the-spheres-limited-edition-tour-tee?variant=44575762972725"
-#"https://usstore.coldplay.com/products/2025-music-of-the-spheres-world-tour-heart-logo-tee?variant=44220174303285"
+PRODUCT_SHIRT_URL = "https://usstore.coldplay.com/products/2025-music-of-the-spheres-world-tour-heart-logo-tee?variant=44220174303285"
 
 PRODUCT_HOODIE_URL = "https://usstore.coldplay.com/products/2025-music-of-the-spheres-world-tour-heart-hoodie-copy?variant=44220174073909"
 
